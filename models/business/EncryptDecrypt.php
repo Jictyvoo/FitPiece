@@ -1,12 +1,14 @@
 <?php
-	class EncryptDecrypt {
-		
-		public function encrypt($receivedString){
 
-		}
+class EncryptDecrypt {
 
-		public function decrypt($encryptedString){
+	public function encrypt($receivedString) {
 
-		}
 	}
+
+	public function decrypt($encryptedString) {
+
+	}
+}
+
 ?>

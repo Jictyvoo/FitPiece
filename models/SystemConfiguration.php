@@ -1,14 +1,16 @@
 <?php
-	class SystemConfiguration {
-		private $infomations;
 
-		public function __construct() {
-			$jsonFile = file_get_contents ( '../config.json' );
-			$this->informations = json_decode ( $jsonFile, true );
-		}
+class SystemConfiguration {
+	private $information;
 
-		public function getDatabaseInformation() {
-			return $this -> informations["database"];
-		}
+	public function __construct() {
+		$jsonFile = file_get_contents('../config.json');
+		$this->information = json_decode($jsonFile, true);
 	}
+
+	public function getDatabaseInformation() {
+		return $this->information["database"];
+	}
+}
+
 ?>

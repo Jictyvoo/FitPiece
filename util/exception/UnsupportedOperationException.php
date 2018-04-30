@@ -10,4 +10,5 @@ class UnsupportedOperationException extends \RuntimeException {
 		echo $message;
 	}
 }
+
 ?>

@@ -1,0 +1,885 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"props\tReact: this.props."
+			],
+			[
+				"clie",
+				"client_email"
+			],
+			[
+				"client",
+				"client_email"
+			],
+			[
+				"se",
+				"sendMessage"
+			],
+			[
+				"ver",
+				"verifySearch"
+			],
+			[
+				"table",
+				"tableSearch"
+			],
+			[
+				"clien",
+				"client_id"
+			],
+			[
+				"clei",
+				"clientMailList"
+			],
+			[
+				"verif",
+				"verifyGoal_loop"
+			],
+			[
+				"goa",
+				"goal_thread"
+			],
+			[
+				"data",
+				"dataManager"
+			],
+			[
+				"wa",
+				"water_expend_id"
+			],
+			[
+				"fk",
+				"fk_water_expend_id"
+			],
+			[
+				"Client",
+				"Client_Expend"
+			],
+			[
+				"upda",
+				"updateCurrentGoalText"
+			],
+			[
+				"curre",
+				"currentGoalText"
+			],
+			[
+				"curren",
+				"currentGoal"
+			],
+			[
+				"end",
+				"ending_expend"
+			],
+			[
+				"be",
+				"begining_expend"
+			],
+			[
+				"rece",
+				"receivedGoal"
+			],
+			[
+				"new",
+				"newConsume"
+			],
+			[
+				"en",
+				"ending"
+			],
+			[
+				"water",
+				"waterConsumeRow"
+			],
+			[
+				"totalWA",
+				"totalWaterExpended"
+			],
+			[
+				"curr",
+				"currentGoalText"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"co",
+				"coroutine"
+			],
+			[
+				"cl",
+				"clientMail"
+			],
+			[
+				"connec",
+				"connectedClients"
+			],
+			[
+				"tr",
+				"thread"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"Clie",
+				"Client_Expend"
+			],
+			[
+				"daa",
+				"dataManager"
+			],
+			[
+				"da",
+				"databaseConnection"
+			],
+			[
+				"Cl",
+				"Client_Expend"
+			],
+			[
+				"cure",
+				"currentFlow"
+			],
+			[
+				"tmer",
+				"timerParams"
+			],
+			[
+				"time",
+				"timerParams"
+			],
+			[
+				"timer",
+				"timerParams"
+			],
+			[
+				"to",
+				"totalConsume"
+			],
+			[
+				"ma",
+				"mainFrame"
+			],
+			[
+				"main",
+				"mainPanel"
+			],
+			[
+				"mac",
+				"macPiece"
+			],
+			[
+				"re",
+				"returnedString"
+			],
+			[
+				"udp",
+				"udp_thread"
+			],
+			[
+				"ud",
+				"udp_loop"
+			],
+			[
+				"ser",
+				"serverConnection"
+			],
+			[
+				"tcp",
+				"tcp_server"
+			],
+			[
+				"Cli",
+				"Client_Water"
+			],
+			[
+				"Cle",
+				"Client_Water"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			],
+			[
+				"cli",
+				"clientId"
+			],
+			[
+				"cur",
+				"cursorFetch"
+			],
+			[
+				"edn",
+				"ending"
+			],
+			[
+				"c",
+				"client_id"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"i",
+				"ip_client"
+			],
+			[
+				"serverC",
+				"serverConnection"
+			],
+			[
+				"dat",
+				"dateTime"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"serv",
+				"serverConn"
+			],
+			[
+				"sen",
+				"sensorID"
+			],
+			[
+				"send",
+				"sendMail"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"lis",
+				"listCtrl"
+			],
+			[
+				"WX",
+				"wxHORIZONTAL"
+			],
+			[
+				"sensorT",
+				"sensorIdTextInput"
+			],
+			[
+				"saved",
+				"savedSensorID"
+			],
+			[
+				"set",
+				"SetSizer"
+			],
+			[
+				"conf",
+				"configSizer"
+			],
+			[
+				"emai",
+				"emailStaticText"
+			],
+			[
+				"email",
+				"emailHorizontalSizer"
+			],
+			[
+				"wxB",
+				"wxBoxSizer"
+			],
+			[
+				"wxSz",
+				"wxBoxSizer"
+			],
+			[
+				"CONF",
+				"CONFIGPANEL_ID"
+			],
+			[
+				"wxDe",
+				"wxDefaultSize"
+			],
+			[
+				"wxID",
+				"wxID_ANY"
+			],
+			[
+				"CURRE",
+				"CURRENTEXPENDITURE"
+			],
+			[
+				"De",
+				"wxDefaultSize"
+			],
+			[
+				"mai",
+				"manipulateEvents"
+			],
+			[
+				"siz",
+				"sizer_1"
+			],
+			[
+				"inf",
+				"informationPanel"
+			],
+			[
+				"de",
+				"wxDefaultPosition"
+			],
+			[
+				"spl",
+				"splitter_2"
+			],
+			[
+				"ch",
+				"checkListBox"
+			],
+			[
+				"Add",
+				"Add"
+			],
+			[
+				"butto",
+				"buttonSizer"
+			],
+			[
+				"ji",
+				"jvictoroli07"
+			],
+			[
+				"text",
+				"textEntry"
+			],
+			[
+				"panel",
+				"panel_1"
+			],
+			[
+				"pane",
+				"panel2"
+			],
+			[
+				"seco",
+				"secondPanel"
+			],
+			[
+				"pa",
+				"panel1"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"FK_Story",
+				"FK_Story_story_id"
+			],
+			[
+				"class",
+				"classCreatorTable"
+			],
+			[
+				"f",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"pos",
+				"POSITIVE_INFINITY"
+			],
+			[
+				"maior",
+				"maiorMenor"
+			],
+			[
+				"retr",
+				"returnedString"
+			],
+			[
+				"return",
+				"returnedString"
+			],
+			[
+				"type",
+				"typeArgument"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"ty",
+				"typeArgument"
+			],
+			[
+				"write",
+				"writingScreen"
+			],
+			[
+				"log",
+				"logPathWrite"
+			],
+			[
+				"conver",
+				"convertFolder"
+			],
+			[
+				"ace",
+				"acceptedToken"
+			],
+			[
+				"acce",
+				"acceptedToken"
+			],
+			[
+				"is",
+				"isToken"
+			],
+			[
+				"cu",
+				"current"
+			],
+			[
+				"tes",
+				"testedString"
+			],
+			[
+				"fin",
+				"finishedString"
+			],
+			[
+				"un",
+				"unfinishedString"
+			],
+			[
+				"strin",
+				"stringTreatment"
+			],
+			[
+				"current",
+				"currentString"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"sou",
+				"sourceFolderName"
+			],
+			[
+				"files",
+				"filesToConverter"
+			],
+			[
+				"find",
+				"findAllFiles"
+			],
+			[
+				"lua",
+				"luaFileSystem"
+			],
+			[
+				"a",
+				"attributesTable"
+			],
+			[
+				"me",
+				"methodsTable"
+			],
+			[
+				"create",
+				"createdClass"
+			],
+			[
+				"impo",
+				"imports"
+			],
+			[
+				"error",
+				"errorLog"
+			],
+			[
+				"ex",
+				"executionSuccessLog"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/SystemManager.php",
+			"settings":
+			{
+				"buffer_size": 4585,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"set syntax C",
+				"Set Syntax: C"
+			],
+			[
+				"set syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"Package COntrol",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 533.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views"
+	],
+	"file_history":
+	[
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/config.json",
+		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/ServiceAccessController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/views/SystemManager.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/DatabaseController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/database_informations/odontoradiosis_DB.sql",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/README.md",
+		"/etc/apache2/mods-available/mpm_prefork.conf",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/RandomCodes/1_PBL_Tarcio.c",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/chapters_lovers/App.js",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Client.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Client.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/Server.lua",
+		"/usr/local/share/lua/5.2/wxlua/samples/calculator.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/config.clt",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/Server_TCP.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/database.sql",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/DataManager.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/lanes_test.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/README.md",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Client_test.wx.lua",
+		"/tmp/mozilla_jictyvoo0/ROOT.rar",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Sensor.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/util/NoReply.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/server/Server_UDP.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Sensor.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2017.1/Siecomp/Quest 2017.1/Boa Sorte 2017.1/MI - Algoritmos (PBL)/1º Problema/1º PBL Jictyvoo - 2016.1_Código Fonte.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2017.1/Siecomp/Quest 2017.1/Boa Sorte 2017.1/MI - Algoritmos (PBL)/1º Problema/First PBL FINAL.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/resources/listDirectorieFiles.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/config.snr",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/EXA868 - INTELIGÊNCIA ARTIFICIAL NÃO-SIMBÓLICA B/wdm.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/util/Json.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/userStories.usrStr",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/sensor.rb",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/Sensor_test.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/util/macAdress.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/util/example.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_1/src/client/noname.xrc",
+		"/home/jictyvoo/Downloads/wxformbuilder.flatpak",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/2017.2/effilExample.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/client/Client.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/server/database.sql",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/server/Server_UDP.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/server/Server.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/server/Server_TCP.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/client/Sensor.lua",
+		"/home/jictyvoo/Downloads/Roberto Ierusalimschy-Programming in Lua-Lua.org (2016).pdf",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/util/NoReply.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/client/Client.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/client/Sensor.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/userStories.usrStr",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/util/macAdress.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/util/macAdress.cpp",
+		"/usr/local/share/wxlua/samples/dialog.wx.lua",
+		"/usr/local/share/wxlua/samples/calculator.wx.lua",
+		"/usr/local/share/wxlua/samples/choices.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/inova_database.sqlite3",
+		"/usr/local/share/wxlua/samples/media.wx.lua",
+		"/tmp/mozilla_jictyvoo0/Escolinha_src.rar",
+		"/usr/local/share/wxlua/samples/controls.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Sensor",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/client/wxluafreeze.lua",
+		"/usr/local/share/wxlua/samples/htmlwin.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client/Sensor.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client/Sensor.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client/macAdress.c",
+		"/usr/local/share/wxlua/samples/auidemo.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client/macAdress.i",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/src/Client/macAdress.s",
+		"/usr/local/share/wxlua/samples/sizer.wx.lua",
+		"/usr/local/share/wxlua/samples/art.wx.lua",
+		"/usr/local/share/wxlua/samples/calculator.xrc",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/Client.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/Client.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/Server.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema 1/Sensor.lua",
+		"/usr/local/share/wxlua/samples/settings.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/chapters_lovers/src/App.js",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/chapters_lovers/src/index.js",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/2017.2/tcpClient.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/2017.2/tcpServer.lua",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/ChaptersLovers/modeling/database_script.sql",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/ChaptersLovers/modeling/database_model_newVersion.xml",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/2017.2/UDPServer.py",
+		"/usr/local/share/wxlua/samples/tree.wx.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/value/ExpressionInformation.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Maratona de Programação/Hackerearth/Monk_visits_Coderland.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Maratona de Programação/Hackerearth/exploring_ruins.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Maratona de Programação/Hackerearth/Monk_visits_Coderland.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Maratona de Programação/Hackerearth/Swap_It.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Maratona de Programação/Hackerearth/Monk_visits_Coderland.test1",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/business/SyntheticAnalyzer.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/controllers/MainController.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/Queue.java",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/business/ClassCreator.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/main.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/business/LexicalAnalyzer.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/business/LanguageExpressionConverter.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/value/TokensInformation.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/2017.2/socketlanes.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/SENAI - Informática/Modulo III/Modelagem de Sistemas/untitled.html",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/SENAI - Informática/Modulo III/Modelagem de Sistemas/OnePoint.js",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/models/value/ExecutionLog.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/.gitignore",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/README.md",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/util/BinaryTree.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/util/Stack.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/src/controllers/AnalyzerController.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/JCofenged/package/models/Fruta.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/SENAI - Informática/Modulo III/Modelagem de Sistemas/untitled.js",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/value/Token.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/value/TokensInformation.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/ClassCreator.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/LexicalAnalyzer.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/resources/listDirectorieFiles.c",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/main.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/package/models/Fruta.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/FunctionCreator.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/Stack.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/Queue.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/ArrayList.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/BinaryTree.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/SemanticAuthenticator.lua",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/Queue.java",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/sailor_database_system/src/conf/conf.lua",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/database_model.xml",
+		"/media/jictyvoo/ARQUIVOS/GitProjects/sailor_database_system/database/database_model_newVersion.xml",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp 2017.1/EXA 863 MI - PROGRAMAÇÃO/2º PBL/SISCARETA.usrStry"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/SystemManager.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FitPiece.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
