@@ -22,4 +22,5 @@ All dashboards are splited into two file with same name, only differing in it en
 
 ## Next Features
 * Friendly-URL
-* Database Modules
+* Database Encrypt Function
+* Class DAO - Update Method, Remove Method, Select Method

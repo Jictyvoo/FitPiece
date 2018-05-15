@@ -1,6 +1,7 @@
 <?php
 
-namespace Odontoradiosis\Exception;
+namespace Fit_Piece\Exception;
+use \Exception;
 
 /**
  * Thrown to indicate that the requested operation is not supported.

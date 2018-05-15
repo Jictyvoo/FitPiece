@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"tab",
+				"tableName"
+			],
+			[
+				"values",
+				"valuesString"
+			],
+			[
+				"colu",
+				"columnsString"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"vale",
+				"valuesArray"
+			],
+			[
+				"insert",
+				"insertNoPrimaryKey"
+			],
+			[
+				"table",
+				"tableDescription"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"acce",
+				"accesUserLevel"
+			],
+			[
 				"pro",
 				"props\tReact: this.props."
 			],
@@ -22,10 +62,6 @@
 			[
 				"ver",
 				"verifySearch"
-			],
-			[
-				"table",
-				"tableSearch"
 			],
 			[
 				"clien",
@@ -222,10 +258,6 @@
 			[
 				"c",
 				"client_id"
-			],
-			[
-				"for",
-				"format"
 			],
 			[
 				"i",
@@ -440,10 +472,6 @@
 				"acceptedToken"
 			],
 			[
-				"acce",
-				"acceptedToken"
-			],
-			[
 				"is",
 				"isToken"
 			],
@@ -486,46 +514,27 @@
 			[
 				"find",
 				"findAllFiles"
-			],
-			[
-				"lua",
-				"luaFileSystem"
-			],
-			[
-				"a",
-				"attributesTable"
-			],
-			[
-				"me",
-				"methodsTable"
-			],
-			[
-				"create",
-				"createdClass"
-			],
-			[
-				"impo",
-				"imports"
-			],
-			[
-				"error",
-				"errorLog"
-			],
-			[
-				"ex",
-				"executionSuccessLog"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/SystemManager.php",
+			"file": "models/business/ClassDAO.php",
 			"settings":
 			{
-				"buffer_size": 4585,
+				"buffer_size": 2858,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1416,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -573,7 +582,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 533.0
+		"width": 461.0
 	},
 	"console":
 	{
@@ -595,16 +604,35 @@
 	[
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers",
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views"
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/layout",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/business",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/value",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/util",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/util/exception",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/service_pages"
 	],
 	"file_history":
 	[
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ServiceAccessController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/SystemManager.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/DatabaseController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/business/ClassDAO.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/util/exception/UnsupportedOperationException.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/value/User.class.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/README.md",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/.gitignore",
+		"/home/jictyvoo/.config/sublime-text-3/Packages/phpcbf/Default (Linux).sublime-keymap",
+		"/home/jictyvoo/.config/sublime-text-3/Packages/phpcbf/phpcbf.sublime-settings",
+		"/home/jictyvoo/.config/sublime-text-3/Packages/User/phpcbf.sublime-settings",
+		"/home/jictyvoo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp UEFS/Ecomp 2018.1/TEC502 - MI - CONCORRÊNCIA E CONECTIVIDADE/Problema_2/dicionario/en_US.dic",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/config.json",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/ServiceAccessController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/views/SystemManager.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/DatabaseController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/database_informations/odontoradiosis_DB.sql",
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/README.md",
 		"/etc/apache2/mods-available/mpm_prefork.conf",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/RandomCodes/1_PBL_Tarcio.c",
 		"/media/jictyvoo/ARQUIVOS/GitProjects/chapters_lovers/App.js",
@@ -714,19 +742,7 @@
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/ClassCreator.lua",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/LexicalAnalyzer.lua",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/resources/listDirectorieFiles.c",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/main.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/package/models/Fruta.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/FunctionCreator.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/Stack.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/Queue.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/ArrayList.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/util/BinaryTree.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/SemanticAuthenticator.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/Queue.java",
-		"/media/jictyvoo/ARQUIVOS/GitProjects/sailor_database_system/src/conf/conf.lua",
-		"/media/jictyvoo/ARQUIVOS/GitProjects/database_model.xml",
-		"/media/jictyvoo/ARQUIVOS/GitProjects/sailor_database_system/database/database_model_newVersion.xml",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Ecomp 2017.1/EXA 863 MI - PROGRAMAÇÃO/2º PBL/SISCARETA.usrStry"
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/main.lua"
 	],
 	"find":
 	{
@@ -734,16 +750,28 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 98.0,
 		"where_history":
 		[
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"isAssoc",
+			"$arr",
+			"arr",
+			"accesUserLevel",
+			": 3",
+			": 2",
+			": 1",
+			": 2",
+			": 1",
+			"LoadInDatabase",
+			"executarSQL",
+			"carregarSQL"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -755,8 +783,8 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
-		"wrap": true
+		"whole_word": false,
+		"wrap": false
 	},
 	"groups":
 	[
@@ -766,19 +794,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "views/SystemManager.php",
+					"file": "models/business/ClassDAO.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4585,
+						"buffer_size": 2858,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								2858,
+								2858
 							]
 						],
 						"settings":
@@ -787,10 +815,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1027.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1416,
+								1416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -877,7 +933,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 169.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
