@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"columns"
+			],
+			[
+				"value",
+				"valuesArray"
+			],
+			[
+				"gene",
+				"generatedAssociative"
+			],
+			[
+				"whereCo",
+				"whereCommand"
+			],
+			[
+				"where",
+				"whereCommand"
+			],
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"UPDA",
+				"updateAssociative"
+			],
+			[
+				"table",
+				"tableName"
+			],
+			[
 				"tab",
 				"tableName"
 			],
@@ -16,20 +48,12 @@
 				"columnsString"
 			],
 			[
-				"for",
-				"foreach\tforeach …"
-			],
-			[
 				"vale",
 				"valuesArray"
 			],
 			[
 				"insert",
 				"insertNoPrimaryKey"
-			],
-			[
-				"table",
-				"tableDescription"
 			],
 			[
 				"var",
@@ -490,30 +514,6 @@
 			[
 				"un",
 				"unfinishedString"
-			],
-			[
-				"strin",
-				"stringTreatment"
-			],
-			[
-				"current",
-				"currentString"
-			],
-			[
-				"file",
-				"filename"
-			],
-			[
-				"sou",
-				"sourceFolderName"
-			],
-			[
-				"files",
-				"filesToConverter"
-			],
-			[
-				"find",
-				"findAllFiles"
 			]
 		]
 	},
@@ -523,7 +523,16 @@
 			"file": "models/business/ClassDAO.php",
 			"settings":
 			{
-				"buffer_size": 2858,
+				"buffer_size": 6053,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/DatabaseController.php",
+			"settings":
+			{
+				"buffer_size": 3123,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +541,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1416,
+				"buffer_size": 2252,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -615,8 +624,9 @@
 	],
 	"file_history":
 	[
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ServiceAccessController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/SystemManager.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/service_pages/403.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ServiceAccessController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/DatabaseController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/business/ClassDAO.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/util/exception/UnsupportedOperationException.php",
@@ -741,8 +751,7 @@
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/value/TokensInformation.lua",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/ClassCreator.lua",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/LexicalAnalyzer.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/resources/listDirectorieFiles.c",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/main.lua"
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/resources/listDirectorieFiles.c"
 	],
 	"find":
 	{
@@ -760,6 +769,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"whereArray",
 			"isAssoc",
 			"$arr",
 			"arr",
@@ -798,15 +808,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2858,
+						"buffer_size": 6053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2858,
-								2858
+								6053,
+								6053
 							]
 						],
 						"settings":
@@ -815,7 +825,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1027.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -823,19 +833,48 @@
 				},
 				{
 					"buffer": 1,
-					"file": "README.md",
+					"file": "controllers/DatabaseController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1416,
+						"buffer_size": 3123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1416,
-								1416
+								3123,
+								3123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2252,
+								2252
 							]
 						],
 						"settings":
@@ -854,7 +893,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -895,7 +934,7 @@
 	"project": "FitPiece.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

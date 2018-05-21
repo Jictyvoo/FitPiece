@@ -22,7 +22,6 @@ $_SESSION ['paginaAnterior'] = "service_pages/Login.php";
     
     <?php $_SESSION['paginaAnterior'] = "service_pages/Login.php";?>
 
-    <title>Login</title>
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">

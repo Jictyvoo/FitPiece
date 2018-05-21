@@ -101,7 +101,11 @@ if ($isLogged) {
 	}
 	include $dashLocation . "_TOP.php";
 	if ($informationsAboutPage->getDefaultLayout ( $paginaDestino ) == $_SESSION ['selectedDash'] || $informationsAboutPage->getDefaultLayout ( $paginaDestino ) == "*" || $dashLocation == "../layout/dashboards/Default/Default") {
-		include $informationsAboutPage->getFileLocation ( $paginaDestino );
+		if (file_exists ( $informationsAboutPage->getFileLocation ( $paginaDestino ) )) {
+			include $informationsAboutPage->getFileLocation ( $paginaDestino );
+		} else {
+			include "service_pages/403.php";
+		}
 	} else {
 		include "service_pages/404.php";
 	}

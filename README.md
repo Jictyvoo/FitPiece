@@ -20,7 +20,18 @@ All dashboards are splited into two file with same name, only differing in it en
 * Default_TOP.php (layout of headers and other things in page's top)
 * Default_BOT.php (layout of footers and other things in page's bottom)
 
+### DAO Classes
+First thing first you need to load DatabaseController module from modules loader. After that, use generateDAO function giving table name as parameter.
+
+All DAO Classes have a predefined functions, there is:
+* insert($valuesArray) => Used to insert a new line into the table
+* update($valuesArray, $whereCommand) => Used to update a table line 
+* delete($condition) => Used to delete a table line
+* select($columns, $whereCommand) => Used to search lines in table
+* selectAll($whereCommand) => used to search all columns in all lines of table
+
+To use insert and update functions, can use them with associative arrays, or just values in a normal array. If use a normal array the columns used was all less first if the values's array length was less than columns existing into table. And for every value less, less columns will be used in the command.
+
 ## Next Features
 * Friendly-URL
 * Database Encrypt Function
-* Class DAO - Update Method, Remove Method, Select Method

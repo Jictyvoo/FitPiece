@@ -18,7 +18,7 @@ class DatabaseController {
 				code_user int not null auto_increment,
 				login varchar(20) not null,
 				password varchar(60) not null,
-				acces_level int,
+				access_level int,
 				primary key(code_user)
 			);";
 			$this->connection->exec ( $userCommand );
