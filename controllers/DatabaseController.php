@@ -63,7 +63,7 @@ class DatabaseController {
 		}
 	}
 	public function validateUser($username, $password) {
-		$command = $this->connection->prepare ( "SELECT acces_level, code_user FROM User WHERE login = '" . $username . "' and password = '" . $password . "'" );
+		$command = $this->connection->prepare ( "SELECT access_level, code_user FROM User WHERE login = '" . $username . "' and password = '" . $password . "'" );
 		$command->execute ();
 		return $command->fetch ();
 	}
