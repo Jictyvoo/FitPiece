@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"ex",
+				"execution"
+			],
+			[
 				"col",
 				"columns"
 			],
@@ -502,18 +514,6 @@
 			[
 				"cu",
 				"current"
-			],
-			[
-				"tes",
-				"testedString"
-			],
-			[
-				"fin",
-				"finishedString"
-			],
-			[
-				"un",
-				"unfinishedString"
 			]
 		]
 	},
@@ -523,25 +523,7 @@
 			"file": "models/business/ClassDAO.php",
 			"settings":
 			{
-				"buffer_size": 6053,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "controllers/DatabaseController.php",
-			"settings":
-			{
-				"buffer_size": 3123,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 2252,
+				"buffer_size": 6059,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -625,13 +607,16 @@
 	"file_history":
 	[
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/SystemManager.php",
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/service_pages/403.php",
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ServiceAccessController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/SystemConfiguration.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ModulesLoader.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/DatabaseController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/controllers/ServiceAccessController.php",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/README.md",
+		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/database_informations/odontoradiosis_DB.sql",
+		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/views/service_pages/403.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/business/ClassDAO.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/util/exception/UnsupportedOperationException.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/models/value/User.class.php",
-		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/README.md",
 		"/media/jictyvoo/Windows/xampp/htdocs/Fit_Piece/.gitignore",
 		"/home/jictyvoo/.config/sublime-text-3/Packages/phpcbf/Default (Linux).sublime-keymap",
 		"/home/jictyvoo/.config/sublime-text-3/Packages/phpcbf/phpcbf.sublime-settings",
@@ -642,7 +627,6 @@
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/ServiceAccessController.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/views/SystemManager.php",
 		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/src/controllers/DatabaseController.php",
-		"/media/jictyvoo/Windows/xampp/htdocs/Odontoradiosis/database_informations/odontoradiosis_DB.sql",
 		"/etc/apache2/mods-available/mpm_prefork.conf",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/RandomCodes/1_PBL_Tarcio.c",
 		"/media/jictyvoo/ARQUIVOS/GitProjects/chapters_lovers/App.js",
@@ -749,9 +733,7 @@
 		"/media/jictyvoo/ARQUIVOS/Google Drive/SENAI - Informática/Modulo III/Modelagem de Sistemas/untitled.js",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/value/Token.lua",
 		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/value/TokensInformation.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/ClassCreator.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/LexicalAnalyzer.lua",
-		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/resources/listDirectorieFiles.c"
+		"/media/jictyvoo/ARQUIVOS/Google Drive/Standalone Projects/Moonshard/JavaToLua/src/models/business/ClassCreator.lua"
 	],
 	"find":
 	{
@@ -808,15 +790,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6053,
+						"buffer_size": 6059,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6053,
-								6053
+								6059,
+								6059
 							]
 						],
 						"settings":
@@ -825,67 +807,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2040.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "controllers/DatabaseController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3123,
-								3123
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2252,
-								2252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -972,7 +897,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 173.0,
+	"side_bar_width": 174.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

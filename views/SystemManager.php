@@ -2,6 +2,7 @@
 require_once "../models/PageCodification.php";
 require_once "../models/PageInformations.php";
 require_once "../controllers/ModulesLoader.php";
+require_once "../models/value/User.class.php";
 session_start ();
 
 /*
@@ -66,6 +67,9 @@ function preparePage() {
 }
 function getRedirectPage($openPage) {
 	return 'SystemManager.php?selectPage=' . $_SESSION ['PageCodification']->getChave ( $openPage );
+}
+function getUser() {
+	return $_SESSION ['logged'];
 }
 
 /* End of page Configuration */

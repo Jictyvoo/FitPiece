@@ -1,5 +1,17 @@
 <?php
-require_once ("../models/business/ClassDAO.php");
+$amount = "";
+$path = explode ( "/", $_SERVER ['SCRIPT_FILENAME'] );
+$rootPathArray = explode ( "/", $_SERVER ['DOCUMENT_ROOT'] );
+$rootPath = $rootPathArray [count ( $rootPathArray ) - 1];
+for($index = count ( $path ); $index >= 0; $index -= 1) {
+	if ($index >= count ( $path ) - 1) {
+		continue;
+	} else if ($path [$index] == $rootPath) {
+		break;
+	}
+	$amount = $amount . "../";
+}
+require_once ($amount . "models/business/ClassDAO.php");
 class DatabaseController {
 	private $connection;
 	private $username;
@@ -14,7 +26,8 @@ class DatabaseController {
 			$this->executeSQL ( $main_SQL_script );
 			$this->loadCSV ( $first_CSV_file );
 		} finally {
-			$userCommand = "create table if not exists User(
+			$this->connection->exec ( 'CREATE DATABASE IF NOT EXISTS ' . $database_name );
+			$userCommand = "CREATE TABLE IF NOT EXISTS User(
 				code_user int not null auto_increment,
 				login varchar(20) not null,
 				password varchar(60) not null,
@@ -30,25 +43,26 @@ class DatabaseController {
 		$comandos = array ();
 		if ($arquivo_sql != "") {
 			$ref_arquivo = fopen ( $arquivo_sql, "r" );
-			
-			$index = 0;
-			while ( ! feof ( $ref_arquivo ) ) {
-				$linha = str_replace ( "\n", "", fgets ( $ref_arquivo ) ); // apaga o '\n' do final da linha
-				$linhasCriacao [$index] = $linha;
-				$index += 1;
-			}
-			fclose ( $ref_arquivo );
-			
-			$index = 0;
-			$tempComando = "";
-			foreach ( $linhasCriacao as $value ) {
-				$tempComando = $tempComando . $value . " ";
-				$tamanho = strlen ( $value );
-				if ($tamanho > 0) {
-					if (count ( explode ( ";", $value ) ) == 2) {
-						$comandos [$index] = $tempComando;
-						$tempComando = "";
-						$index += 1;
+			if ($ref_arquivo) {
+				$index = 0;
+				while ( ! feof ( $ref_arquivo ) ) {
+					$linha = str_replace ( "\n", "", fgets ( $ref_arquivo ) ); // apaga o '\n' do final da linha
+					$linhasCriacao [$index] = $linha;
+					$index += 1;
+				}
+				fclose ( $ref_arquivo );
+				
+				$index = 0;
+				$tempComando = "";
+				foreach ( $linhasCriacao as $value ) {
+					$tempComando = $tempComando . $value . " ";
+					$tamanho = strlen ( $value );
+					if ($tamanho > 0) {
+						if (count ( explode ( ";", $value ) ) == 2) {
+							$comandos [$index] = $tempComando;
+							$tempComando = "";
+							$index += 1;
+						}
 					}
 				}
 			}
@@ -69,18 +83,19 @@ class DatabaseController {
 	}
 	public function loadCSV($arquivo_csv) {
 		if ($arquivo_csv ["file_name"] != "") {
-			$file = fopen ( $arquivo_csv, "r" );
-			
-			while ( ! feof ( $file ) ) {
-				$line = explode ( ";", str_replace ( "\n", "", fgets ( $file ) ) );
-				if ($line [0] != "") {
-					$sqlCommand = "REPLACE " . $arquivo_csv ["associated_table"] . "(" . $arquivo_csv ["table_columns"] . ") VALUES('";
-					foreach ( $line as $value ) {
-						$sqlCommand = $sqlCommand . $value;
+			$file = fopen ( $arquivo_csv ["file_name"], "r" );
+			if ($file) {
+				while ( ! feof ( $file ) ) {
+					$line = explode ( ";", str_replace ( "\n", "", fgets ( $file ) ) );
+					if ($line [0] != "") {
+						$sqlCommand = "REPLACE " . $arquivo_csv ["associated_table"] . "(" . $arquivo_csv ["table_columns"] . ") VALUES('";
+						foreach ( $line as $value ) {
+							$sqlCommand = $sqlCommand . $value;
+						}
+						$sqlCommand = $sqlCommand . "')";
+						$command = $this->connection->prepare ( $sqlCommand );
+						$command->execute ();
 					}
-					$sqlCommand = $sqlCommand . "')";
-					$command = $this->connection->prepare ( $sqlCommand );
-					$command->execute ();
 				}
 			}
 		}
@@ -92,5 +107,9 @@ class DatabaseController {
 	}
 	public function generateDAO($tableName) {
 		return new ClassDAO ( $this->getTableDescription ( $tableName ), $tableName, $this->connection );
+	}
+	public function execute($command) {
+		$execution = $this->connection->prepare ( $command );
+		$execution->execute ();
 	}
 }

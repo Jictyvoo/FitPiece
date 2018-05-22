@@ -1,6 +1,18 @@
 <?php
-require_once ("../models/SystemConfiguration.php");
-require_once ("../controllers/DatabaseController.php");
+$amount = "";
+$path = explode ( "/", $_SERVER ['SCRIPT_FILENAME'] );
+$rootPathArray = explode ( "/", $_SERVER ['DOCUMENT_ROOT'] );
+$rootPath = $rootPathArray [count ( $rootPathArray ) - 1];
+for($index = count ( $path ); $index >= 0; $index -= 1) {
+	if ($index >= count ( $path ) - 1) {
+		continue;
+	} else if ($path [$index] == $rootPath) {
+		break;
+	}
+	$amount = $amount . "../";
+}
+require_once ($amount . "models/SystemConfiguration.php");
+require_once ($amount . "controllers/DatabaseController.php");
 class ModulesLoader {
 	private $systemConfiguration;
 	private $databaseController;

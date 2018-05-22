@@ -158,18 +158,18 @@ class ClassDAO {
 		if ($whereCommand) {
 			$sqlCommand = $sqlCommand . " WHERE " . $whereCommand;
 		}
-		var_dump ( $sqlCommand );
 		$command = $this->databaseConnection->prepare ( $sqlCommand );
-		$command->fetchall ();
+		$command->execute ();
+		return $command->fetchall ();
 	}
 	public function selectAll($whereCommand) {
 		$sqlCommand = "SELECT * FROM " . $this->tableName;
 		if ($whereCommand) {
 			$sqlCommand = $sqlCommand . " WHERE " . $whereCommand;
 		}
-		var_dump ( $sqlCommand );
 		$command = $this->databaseConnection->prepare ( $sqlCommand );
-		$command->fetchall ();
+		$command->execute ();
+		return $command->fetchall ();
 	}
 }
 ?>
