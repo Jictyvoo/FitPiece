@@ -1,3 +1,3 @@
 <?php
-header('Location: views/SystemManager.php');
+	header('Location: views/SystemManager.php');
 ?>

@@ -1,5 +1,6 @@
 <?php $titlePage = makePageTitle(); ?>
 <!DOCTYPE html>
+<!--suppress HtmlMissingClosingTag -->
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">

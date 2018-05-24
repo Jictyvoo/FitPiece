@@ -1,23 +1,28 @@
 <?php
-class SystemConfiguration {
-	private $information;
-	public function __construct() {
-		$amount = "";
-		$path = explode ( "/", $_SERVER ['SCRIPT_FILENAME'] );
-		$rootPathArray = explode ( "/", $_SERVER ['DOCUMENT_ROOT'] );
-		$rootPath = $rootPathArray [count ( $rootPathArray ) - 1];
-		for($index = count ( $path ) - 2; $index >= 0; $index -= 1) {
-			if ($path [$index] == $rootPath) {
-				break;
+
+	namespace Fit_Piece\models;
+
+	class SystemConfiguration {
+		private $information;
+
+		public function __construct() {
+			$amount = "";
+			$path = explode("/", $_SERVER ['SCRIPT_FILENAME']);
+			$rootPathArray = explode("/", $_SERVER ['DOCUMENT_ROOT']);
+			$rootPath = $rootPathArray [count($rootPathArray) - 1];
+			for ($index = count($path) - 3; $index >= 0; $index -= 1) {
+				if ($path [$index] == $rootPath) {
+					break;
+				}
+				$amount = $amount . "../";
 			}
-			$amount = $amount . "../";
+			$jsonFile = file_get_contents($amount . 'config.json');
+			$this->information = json_decode($jsonFile, true);
 		}
-		$jsonFile = file_get_contents ( $amount . 'config.json' );
-		$this->information = json_decode ( $jsonFile, true );
+
+		public function getDatabaseInformation() {
+			return $this->information ["database"];
+		}
 	}
-	public function getDatabaseInformation() {
-		return $this->information ["database"];
-	}
-}
 
 ?>

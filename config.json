@@ -4,7 +4,7 @@
 		"database_name": "Fit_Piece",
 		"database_host": "localhost",
 		"database_user": "root",
-		"database_password": "root_pass",
+		"database_password": "",
 		"main_SQL_script": "",
 		"first_CSV_file": {"associated_table": "", "file_name": "", "table_columns": ""}
 	},
