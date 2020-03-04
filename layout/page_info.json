@@ -1,0 +1,49 @@
+{
+	"pages":
+	{
+		"404": {
+			"file_location": "views/service_pages/404.html",
+			"pageName": "404 Error Not Found",
+			"defaultLayout": "*",
+			"headers": "*"
+		},
+
+		"login": {
+			"file_location": "views/service_pages/login.html",
+			"pageName": "Login Service",
+			"defaultLayout": "Default",
+			"headers": "*"
+		},
+
+		"SomebodyMainPage": {
+			"file_location": "views/service_pages/SomebodyMainPage.html",
+			"pageName": "SomebodyMainPage",
+			"defaultLayout": "SomebodyDash",
+			"headers": "*",
+			"userAccessLevel": "2"
+		},
+
+		"AdministratorDashboard": {
+			"file_location": "views/service_pages/AdministratorDashboard.html",
+			"pageName": "Administrator Dashboard",
+			"defaultLayout": "AdministratorDash",
+			"headers": "*",
+			"userAccessLevel": "1"
+		}
+	},
+
+	"accesLevels":
+	[
+		{
+			"dashboard": "AdministratorDash",
+			"mainPage": "AdministratorDashboard",
+			"redirectPages": ["AdministratorDashboard", "InsertNewUser"]
+		},
+
+		{
+			"dashboard": "SomebodyDash",
+			"mainPage": "SomebodyMainPage",
+			"redirectPages": ["SomebodyMainPage", "SomePage"]
+		}
+	]
+}

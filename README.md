@@ -17,8 +17,9 @@ This part of JSON file indicates where is your page dashboard, to load it. So, t
 All dashboards are splited into two file with same name, only differing in it end. All dashboards need to be in a directory with the same name as the files. Here's a example:
 
 * Default (directory)
-* Default_TOP.php (layout of headers and other things in page's top)
-* Default_BOT.php (layout of footers and other things in page's bottom)
+* head.html (layout of headers)
+* body_top.html (layout of body and other things in page's top)
+* body_bot.html (layout of footers and other things in page's bottom)
 
 ### DAO Classes
 First thing first you need to load DatabaseController module from modules loader. After that, use generateDAO function giving table name as parameter.
