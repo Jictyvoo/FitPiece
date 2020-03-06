@@ -1,5 +1,7 @@
 module database_connection
+
 import mysql
+import os
 #flag -I/usr/include/mysql
 
 struct DatabaseAccess {
@@ -59,67 +61,72 @@ pub fn (db DatabaseAccess) end() {
 	db.connection.close()
 }
 
-pub fn (db DatabaseAccess) loadSQL(sqlFile) {
-	commands = []string
-	if (sqlFile != "") {
-		fileReference = fopen(sqlFile, "r");
-		if (fileReference) {
-			creationLines = []string
-			index = 0;
-			while (!feof(fileReference)) {
-				line = str_replace("\n", "", fgets(fileReference)); // erase '\n' at the line end
-				creationLines [index] = line;
-				index += 1;
-			}
-			fclose(fileReference);
+fn (db DatabaseAccess) load_sql(filename string) []string {
+	mut commands := []string
+	if filename != "" && os.exists(filename) {
+		file_lines := os.read_lines(filename)
+		creation_lines = []string
+		for line in file_lines {
+			creation_lines << line.replace("\n", "") // erase '\n' at the line end
+		}
 
-			index = 0;
-			tempCommand = "";
-			foreach (creationLines as value) {
-				tempCommand = tempCommand . value . " ";
-				size = strlen(value);
-				if (size > 0) {
-					if (count(explode(";", value)) == 2) {
-						commands [index] = tempCommand;
-						tempCommand = "";
-						index += 1;
-					}
+		mut index := 0;
+		mut temp_command := "";
+		for value in creation_lines {
+			temp_command += value + " "
+			if value.len > 0 {
+				if value.split(";").len == 2 {
+					commands << temp_command
+					temp_command = ""
 				}
 			}
 		}
 	}
 
-	return commands;
+	return commands
 }
 
-protected function executeSQL(arquivo_sql) {
-	commands = this->loadSQL(arquivo_sql);
-	foreach (commands as value) {
-		this->connection->exec(value);
+pub fn (db DatabaseAccess) execute_sql(sql_file string) bool {
+	commands := db.load_sql(sql_file)
+	for value in commands {
+		db.connection.query(value) or {
+			return false
+		}
 	}
+	return true
 }
 
-public function loadCSV(arquivo_csv) {
-	if (arquivo_csv ["file_name"] != "") {
-		file = fopen(arquivo_csv ["file_name"], "r");
-		if (file) {
-			while (!feof(file)) {
-				line = explode(";", str_replace("\n", "", fgets(file)));
-				if (line [0] != "") {
-					sqlCommand = "REPLACE " . arquivo_csv ["associated_table"] . "(" . arquivo_csv ["table_columns"] . ") VALUES('";
-					foreach (line as value) {
-						sqlCommand = sqlCommand . value;
+/*
+	On csv_file array, position:
+	0 - filename
+	1 - associated_table
+	2 - table_columns
+*/
+pub fn (db DatabaseAccess) load_csv(csv_file []string) bool {
+	if csv_file[0] != "" {
+		if os.exists(csv_file[0]) {
+			for line in os.read_lines(csv_file[0]) {
+				data := line.replace("\n", "").split(";")
+				if line [0] != "" {
+					mut sql_command := "REPLACE " + csv_file[1] + "(" + csv_file[2] + ") VALUES('"
+					for value in line {
+						sql_command = sql_command + value
 					}
-					sqlCommand = sqlCommand . "')";
-					command = this->connection->prepare(sqlCommand);
-					command->execute();
+					sql_command = sql_command + "')";
+					command = db.connection.query(sql_command) or {
+						return false
+					}
+					return true
 				}
 			}
 		}
 	}
+	return false
 }
 
-public function execute(command) {
-	execution = this->connection->prepare(command);
-	execution->execute();
+pub fn (db DatabaseAccess) execute(command) bool {
+	db.connection.query(command) or {
+		return false
+	}
+	return true
 }
